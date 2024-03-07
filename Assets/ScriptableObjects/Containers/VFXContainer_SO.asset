@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c356d7ef0e2a4c83ab048ebe6be97542, type: 3}
+  m_Name: VFXContainer_SO
+  m_EditorClassIdentifier: 
+  _gameplayVFXes:
+  - key: VFX_DamageText
+    _vfxObject: {fileID: 7660234047101393630, guid: 131b1b0cacc934609a6a9fed8c75ebb6, type: 3}
+    _isPoolObject: 1
+    _poolSize: 5

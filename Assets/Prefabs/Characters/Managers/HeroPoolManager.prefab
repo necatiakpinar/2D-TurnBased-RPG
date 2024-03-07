@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9034756894511206661
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8018351239705461228}
+  - component: {fileID: 6690807988616783565}
+  m_Layer: 0
+  m_Name: HeroPoolManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8018351239705461228
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9034756894511206661}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6690807988616783565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9034756894511206661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 382a42f385e441cab8e4c376e241397c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pools:
+  - _id: 1f547306-59cd-42e3-b4c8-7df6ffb8096e
+    _heroPF: {fileID: 3201309101102330437, guid: f093b612070fe43399031964f8e9209d, type: 3}
+    _size: 1
+  - _id: 11fce036-5c64-4847-bd5f-d9c95dc96d8b
+    _heroPF: {fileID: 1943643887334582583, guid: 09dc535fe13934e059e8ca19eb867954, type: 3}
+    _size: 1
+  - _id: 80f9590d-79d1-414a-8bac-a8b8fa5bf0ee
+    _heroPF: {fileID: 1943643887334582583, guid: 8df0f1a1137ba409ab1d0fcb4292c56a, type: 3}
+    _size: 1
+  - _id: 270677ab-ffc4-4dad-8eff-f17f49f751a1
+    _heroPF: {fileID: 1943643887334582583, guid: de8a7c7ac95d64442bdb148a1606a9d9, type: 3}
+    _size: 1
+  - _id: 6df48ea9-0c9e-4e00-a185-fb8488e401e9
+    _heroPF: {fileID: 1943643887334582583, guid: 9bc42f094ae1444afbaac6f18ad16504, type: 3}
+    _size: 1
+  - _id: f549512a-ed8d-45d4-ab59-bbccc57c43b4
+    _heroPF: {fileID: 1943643887334582583, guid: 2dc0589f3ecac4d0896226ff289979d6, type: 3}
+    _size: 1
+  - _id: 590a7f53-c0c6-4fa7-835f-78a23a60e6f3
+    _heroPF: {fileID: 1943643887334582583, guid: 51712a118702e41088580b80f1ff94a1, type: 3}
+    _size: 1
+  - _id: 6f3a00df-5b76-473a-b0ac-08212ddf2e20
+    _heroPF: {fileID: 1943643887334582583, guid: ce5c71821864647f69ee019e14725d23, type: 3}
+    _size: 1
+  - _id: e2bef25e-31a2-47c6-ab73-b0d6c2bb581d
+    _heroPF: {fileID: 1943643887334582583, guid: e835593a578274c4f884827feb087a70, type: 3}
+    _size: 1
+  - _id: a9dc8fea-15ca-4944-bf72-efe22033b98f
+    _heroPF: {fileID: 1943643887334582583, guid: 2c84864a19475466988e6775b01f6db4, type: 3}
+    _size: 1

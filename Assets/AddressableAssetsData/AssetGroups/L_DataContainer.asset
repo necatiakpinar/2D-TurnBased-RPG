@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: L_DataContainer
+  m_EditorClassIdentifier: 
+  m_GroupName: L_DataContainer
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 927b2ffa0fa07476da31315776354d4b
+  m_SerializeEntries:
+  - m_GUID: 4dd1d312fc7924fc489671f2daba3658
+    m_Address: HeroDataContainer_SO
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ScriptableObject
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64c2836da798647978702357dc9e68ac
+    m_Address: EnemyDataContainer_SO
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ScriptableObject
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c7b45a2cf18ab42c9a13d3b75d33ca5a
+    m_Address: VFXContainer_SO
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ScriptableObject
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5ff3d48203e464e0c86c2676b0251111
+    m_Address: SFXContainer_SO
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ScriptableObject
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: ccc08d36611154a2bb4b8bf1ad0f455a, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d4eabeb6c2b694fa68f6e3d7db9854f3, type: 2}
+    - {fileID: 11400000, guid: 84ea0f745578144789f77b3bcf10f1c4, type: 2}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b959883fffab4d7eb6cb8378428635d8, type: 3}
+  m_Name: NormalHero_001_SO
+  m_EditorClassIdentifier: 
+  _guid: 11fce036-5c64-4847-bd5f-d9c95dc96d8b
+  _name: Hero_001
+  _health: 100
+  _attackPower: 100
+  _color: {r: 0.04460168, g: 1, b: 0, a: 1}
+  _experience: 0
+  _level: 0
